@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const articleApi = axios.create({
-    baseURL: 'http://127.0.0.1:8000/inventory/'
+    baseURL: 'https://lithium-backend.onrender.com/inventory/'
 });
 
 export const getAllCars = () => {
